@@ -1,0 +1,320 @@
+/*
+Theme name : acropolisinfotech;
+Author:Acropolis infotech;
+Auther URI:http//www.acropolisinfotech.com;
+Description: acropolis infotech is a cripsy,beautiful and awesome custom wordpress theme handcrafted with love by acropolis infotech.
+Version:1.0.0
+License: GNU general public License or later
+License URI:URI
+Tags: blog,sidebar,responsive,minimal,icon font, acroglobal,custom admin options.
+
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
+
+ /*============================ Start of Header and Footer Section =============== */
+
+body{margin:0px; padding: 0px;}      
+.ran-nav{background-color: #fff; padding: 13px 0px; background-color:#fff;}          
+.ran-nav-inner{float: right;margin-top: 62px; width: 100%}         
+.ran-nav-left .ran-nav-inner ul li{    display: inline-block;list-style-type: none;margin-left: 31px;position: relative;}
+.ran-nav-left .ran-nav-inner ul li:hover .dropdown-content{ display: block;}
+.ran-nav-left .ran-nav-inner ul li a { text-decoration:none; color:#071172; font-weight: 500; font-size: 16px }
+.ran-nav-left .ran-nav-inner ul li a:hover{color:#f00;}
+.ran-marquee{background-color:#0b103f; margin-bottom: 20px; }
+.ran-marquee p{color:#fff;text-align:center; font-size: 21px; line-height: 2;margin:0px;padding-top: 4px}
+.ran-about-left{border: 1px solid #FF0000; padding: 8px;}
+.ran-about-left p{color: #071172;font-size: 21px;}
+.ran-about-right{ background-image: url(http://sachin.acropolisglobal.com/renaissance/wp-content/uploads/2018/02/Picture11.png); 
+background-repeat: no-repeat;background-size: 69% 96% ;padding-bottom:24%;}
+.ran-about-right p {color: #071172; font-size: 21px; }
+.ran-bold{font-weight:600;}
+footer{background-color:#0b103f; padding: 20px; }
+footer p{ color:white; font-size: 14px; }
+footer ul li {  color:white; font-size: 14px; list-style-type: none; margin-bottom: 4px; }
+.toogle{ background-color:#0b103f; padding:9px ; display: none; color:#fff; font-size: 24px; text-align: right;}
+.dropdown-content {display: none;position: absolute;background-color:#0b103f;min-width: 225px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);z-index: 1;}
+.dropdown-content ul{margin:0px; padding: 0px;}
+.ran-nav-left .ran-nav-inner ul li .dropdown-content ul li {padding: 0px; text-decoration: none;
+display: block;margin: 9px 6px 10px 10px;}
+.ran-nav-left .ran-nav-inner ul li .dropdown-content ul li a {color: black;padding:0px;text-decoration: none;
+display: block; color: #fff; font-size: 12px;}
+.ran-nav-left .ran-nav-inner ul li .dropdown-content ul li a:hover{color:#FF0000;}
+.ran-nav-left .ran-nav-inner ul .active a {color:#FF0000;}
+
+/* Add a class sticky-sidebar which make sidebar fixed when scroll */
+
+.sticky-sidebar{
+position:fixed;
+top:0;
+left:0;
+}
+/* ======================== End of Home Header and Footer =========== */
+
+/* ======================== Start of Contact-us page ================= */
+.contact-us{margin-bottom:100px;}
+.contact-left .form {width:64%;margin: 0% 0% 0% 25%;}
+.contact-left .form .inner-form{background-color:lavender; padding:10px;}
+.contact-left .form .inner-form ul{margin-left:-36px;}
+.contact-left .form .inner-form ul li{list-style-type:none; display:block;}
+.contact-left .form .inner-form ul li input {border: 0px; border-bottom: 1px solid gray;width: 100%;    padding: 13px 0px 0px 0px;
+background-color: transparent;}
+.contact-right {padding-left:10px;}
+.contact-right p{margin:0px 0px 0px 0px; color:#0b103f; font-size: 16px;font-weight:600;}
+
+.contact-left .form button {margin:2% 30%; background-color:#0b103f; padding:1% 20%; color:#fff;border:none;}
+ textarea:focus, input:focus{outline: none;}
+ 
+/* ========================= End of Contact-us Page    =====================*/
+
+/* ========================= Start of Our People Page  =====================*/
+
+.our-people-left{background-color:#0b103f;}
+.our-people-left ul{padding:2px 10px 45px 11px;}
+.our-people-left ul li {list-style-type:none; color:white;margin-bottom:14px;}
+.our-people-left ul li:hover{ color:#FF0000;}
+.our-people-left ul li a {list-style-type:none; color:white;margin-bottom:14px; text-decoration: none;}
+.our-people-left ul li a:hover{ color:#FF0000;}
+.our-people_middle h2{color:#0b103f; font-weight:500;}
+.our-people_middle p{color:#0b103f; font-weight:500;padding-left: 25px}
+.our-people_middle ul li {color:#0b103f;font-weight:500;}
+.our-people_middle_color{background-color:lavender;min-height:150px;}
+
+/* ========================= End of Our People Page     =================== */
+
+
+
+/* ========================= Start of Consulting Page   ===================*/
+
+.consult-contact-left .consult-form {width:100%;margin: 0% 0% 0% 0%;}
+.consult-contact-left .consult-form .consult-inner-form{background-color:#f2f0f0; padding:10px;}
+.consult-contact-left .consult-form .consult-inner-form ul{padding: 1px 8px 0px 7px;}
+.consult-contact-left .consult-form .consult-inner-form ul li{list-style-type:none; display:block;}
+.consult-contact-left .consult-form .consult-inner-form ul li input {border: 0px; border-bottom: 1px solid gray;width: 100%;
+padding: 13px 0px 0px 0px;background-color: transparent;}
+.consult-contact-left .consult-form button {margin:2% 30%; background-color:#0b103f; padding:1% 20%; color:#fff;border:none;}
+ textarea:focus, input:focus{outline: none;}
+.consult-left{padding:1px 13px 3px 15px;}
+.consult-middle{color: #0a1a66;}
+.consult-middle h2 {margin:0px 0px 10px 0px; font-weight: 600; font-size: 18px;}
+.consult-middle-color{background-color: #f2f0f0;}
+.consult-left ul{background-color:#0b103f;padding: 5px 0px 16px 13px;}
+.consult-left ul li{list-style-type:none;color:white; margin-bottom: 5px;}
+.consult-left ul li a{ text-decoration: none; color:#fff; }
+.consult-left ul li a:hover{color:#FF0000;}
+.consult-middle .engage-model{    padding: 1px 30px 32px 0px;}
+.consult-middle .engage-model h2{margin-bottom: 14px; text-align: center; }
+.engage-model-inner{padding:12px 9px 23px 14px}
+
+/* ========================= End of Consulting page     ==================== */
+
+/* ========================= Start of product page      ====================  */
+.product-left-top {background-color:#0b103f;}
+.product-left-top ul{margin: 0px; padding:10px;}
+.product-left-top ul li{list-style-type: none; color:#fff;margin-bottom:10px; font-size: 14px;}
+.product-left-top ul li a{ color: #fff; text-decoration: none; }
+.product-left-top ul li a:hover{color: #FF0000;}
+.product-left-down{background-color: #fff; margin-top:68px;}
+.product-left-down p{background-color:#0b103f; color:#fff; line-height:2; text-align: center; }
+.product-left-down ul{margin: 0px; padding:10px;}
+.product-left-down ul li{list-style-type: none; color:#2442cd;margin-bottom:10px; font-size: 14px;cursor: pointer;}
+.product-right{color: #0a1a66;}
+.product-heading{color: #FF0000; font-weight: 600;}
+.product-heading2{font-weight: 600;} /* to make voilet bold */
+.product-right-image {margin-top:46px;}
+.product-right-color-div{background-color: #f2f2f2; padding: 5px;}
+.product-right-economic {padding: 2px;}
+.product-right-economic-para {color: #092291;font-weight: 600;padding: 1px 36px; }
+.product-right-economic ul{margin-bottom:2px;}
+.product-right-economic-inner-color1{background-color: #0b103f; color:#fff;}
+.product-right-economic-inner-color2{background-color: #fff; color:#0b103f;}
+.product-right-economic ul li p{padding: 0px; margin: 6px; font-weight: 0;}
+.product-right-economic ul li{    list-style-type: none;display: inline-block;margin-left: 2px;border: 1px solid;
+ min-width: 133px; min-height: 47px;text-align: center;}
+ .valuation-right{border:1px solid #0b103f; margin-top:32px;}
+ .valuation-right p {font-size:18px ; font-weight: 600;line-height:2; color: #093481;}
+ .valuation-left{border:1px solid #0b103f;margin: 15px; }
+ .valuation-right-down{margin:15px;}
+ .valuation-right-down p {font-weight:600; color:#093481; }
+ .Risk-Management-left{padding: 5px;}
+
+/* ========================= End  of product page      ====================  */
+
+
+
+/* ========================= Start of who_we_are page      ====================  */
+.who_we_are_left ul {background-color: #0b103f; padding: 5px 0px 16px 13px;}
+.who_we_are_left ul li{list-style-type:none;}
+.who_we_are_left ul li a{ color: #fff; text-decoration: none; }
+.who_we_are_left ul li a:hover{color: #FF0000;}
+.who_we_are_right{color: #0a1a66;}
+.who_we_are_heading1{ color: #0a1a66;font-weight: 600; }
+.who_we_are_right-color-div {background-color: #f2f2f2;padding: 5px;}
+.our_story_top {padding: 6px;}
+.our_story_top ul li {list-style-type: none;}
+ .who_we_are_right .our_story_ul_margin{margin-left: 25px;}
+ .who_we_are_right .clients_benefits_right{margin: 0px 0px 0px 0px; border:1px solid #000;}
+ .who_we_are_right .clients_benefits_right p {font-size: 15px; color: #0a1a66; font-weight: 500; }
+
+
+.who_we_are_contact_form .consult-form {width:100%;margin: 0% 0% 0% 0%;}
+.who_we_are_contact_form .consult-form .consult-inner-form{background-color:#f2f0f0; padding:10px;}
+.who_we_are_contact_form .consult-form .consult-inner-form ul{padding: 1px 8px 0px 7px;}
+.who_we_are_contact_form .consult-form .consult-inner-form ul li{list-style-type:none; display:block;}
+.who_we_are_contact_form .consult-form .consult-inner-form ul li input {border: 0px; border-bottom: 1px solid gray;width: 100%;
+padding: 13px 0px 0px 0px;background-color: transparent;}
+.who_we_are_contact_form .consult-form button {margin:2% 30%; background-color:#0b103f; padding:1% 20%; color:#fff;border:none;}
+ textarea:focus, input:focus{outline: none;}
+
+.who_we_are_right .clients_benefits_right p{
+    color:#0a1a66 !important;
+    font-size:20px !important;
+    font-weight: 800 !important;
+}
+
+
+/************************* Styling the modal and form inside the modal ************************************** */
+
+div.modal-content{
+    background-color:#e6e6fa !important;
+}
+div.modal-content input{
+    border:none;
+    background-color:#e6e6fa;
+    border-bottom: 1px solid #000;
+     border-radius:0px !important;
+    box-shadow:none !important;
+    color: darkblue;
+}
+div.modal-content button[type='submit']{
+    background-color: #0b103f;
+    color:white;
+    padding: 8px 16px;
+    border: 1px solid #0b103f;
+}
+
+/* ========================= End of who_we_are_page     ====================  */
+
+
+/* Styling the thankyou page ****************************************************/
+
+div.thankyou{
+    min-height: 400px;
+    
+}
+div.thankyou h5{
+    text-align: center;
+    font-size: 25px;
+}
+div.jumbotron h5{
+    font-size: 25px !important;
+    text-align: center !important;
+}
+div.jumbotron{
+    margin-top: 10% !important;
+}
+
+/*  End of thankyou page *************************************************** */
+
+/* Styling the 404 page ************************************* */
+
+
+div.page-not-found{
+    padding: 5% 0%;
+}
+div.page-not-found h5{
+    color:#0b103f;
+    font-size: 5.5em;
+    text-align: center;
+}
+div.page-not-found  h6{
+    text-align: center;
+    font-size: 1.5em;
+    color: #0b103f;
+}
+ 
+/*====================== Media Queries ============================== */
+
+/*   ======== Navbar ========= */
+@media only screen and (max-width:768px){
+    .ran-nav-inner { margin: 0px 0px 0px 0px; display:none; }
+	.ran-nav-left .ran-nav-inner ul li{    width:100% ;margin: 5px 0px 5px 0px; list-style-type: none;}
+	.ran-nav-left{width:100%; background-color:#3b3d87;}
+	.ran-nav-left .ran-nav-inner ul li a { text-decoration:none; color:#fff;font-weight: 600; font-size: 16px }
+    .toogle{display: block;}
+}
+
+/*   ========== End of Navbar ========= */ 
+
+/* Styling the dynamic navbar generated by wordpress in header desktop version */
+ul#menu-header-menu ul.sub-menu li{
+    list-style: none;
+    display: block;
+    margin: 0 !important;
+    padding:4px  0px !important;
+    
+}
+ul.sub-menu li a{
+    color: #fff !important;
+    text-decoration: none  !important;
+    font-size:13px !important;
+    text-align: left !important;
+   
+    
+}
+ul#menu-header-menu li ul.sub-menu{
+    display: none;
+    z-index: 1;
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    width:220px;
+    height: auto;
+    margin: 0;
+    padding:0;
+    padding-left: 10px;
+    background-color:#122540;
+}
+ul#menu-header-menu li:hover ul.sub-menu{
+    display: block;
+}
+ul#menu-header-menu>li{
+    position: relative;
+}
+ul.sub-menu li:hover a{
+    color:#c9302c !important;
+    text-decoration: none !important;
+}
+
+
+
+/*========================= End of Media Queries ==================== */ 
+
+/* Adding media query for the screen size with min-width 770px and max-width of 1100px */
+
+@media only screen and (max-width:1200px) and (min-width:990px)
+{
+    ul#menu-header-menu li{
+        margin-left: 12px !important;
+    }
+    div.ran-nav-left{
+        text-align: center;
+    }
+    div.ran-nav-inner{
+        padding-left: 4%;
+    }
+}
+@media only screen and (max-width:990px) and (min-width:700px)
+{
+    div.ran-nav-inner{
+        padding-left: 1%;
+    }
+     ul#menu-header-menu li{
+        margin-left: 6px !important;
+    }
+     ul#menu-header-menu>li:nth-child(1)
+    {
+        margin-left: 0px !important;
+    }
+}
